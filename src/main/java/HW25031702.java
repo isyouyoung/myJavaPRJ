@@ -3,8 +3,7 @@ public class HW25031702 {
 
         int A = 3;
         int B = 5;
-        int C = A+B;
 
-        System.out.println(C);
+        System.out.println(A+B);
     }
 }
