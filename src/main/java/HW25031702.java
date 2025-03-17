@@ -1,6 +1,4 @@
-package org.example;
-
-public class HW2503172 {
+public class HW25031702 {
     public static void main(String[] args){
 
         int A = 3;
