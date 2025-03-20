@@ -4,6 +4,8 @@ public class HW25031702 {
         int A = 3;
         int B = 4;
 
-        System.out.println(A+B);
+        int c = A + B;
+
+        System.out.println(A + "+" + B + "=" + c);
     }
 }
