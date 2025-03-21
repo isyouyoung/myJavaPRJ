@@ -2,25 +2,19 @@ public class St25032102 {
     public static void main(String[] args) {
         int num1, num2, result;
         num1 = 100;
-        num2 = 50;
+        num2 = 60;
 
-        result = num1 + num2;
-        System.out.println(num1 + "+" + num2 + "=" +result);
-        // +랑 = 문자열이 들어가 있으므로 100+50= 까지나오고 result = 150이므로 150이 나옴
-
-        result = num1 - num2;
-        System.out.println(num1 + "-" + num2 + "=" +result);
-        // 똑같이 문자열이 들어가있으므로 100-50= 까지 출력되고 
-        // 새로운 변수로 선언한 result인 50이 나옴
-
-        result = num1 * num2;
-        System.out.println(num1 + "*" + num2 + "=" +result);
-        // 역시 100*50까지 출력 새롭게 선언한 result 값인 5000 출력
+        float res, res2;
 
         result = num1 / num2;
+        // 정수 나누기 정수 = 정수 => 답 = 1
+        res = num1/ num2;
+        // 정수 나누기 정수 => 1인대 => res타입 즉 실수타입으로 변경 => 1.0
+        res2 = (float) num1 / num2;
+        // 원래는 정수나누기 정수인대 그걸바로 실수로 바꿔서 res2 (실수에) 넣었음 => 1.666
+
         System.out.println(num1 + "/" + num2 + "=" +result);
-        // 이역시 똑같음
-        
-        // 커밋 및 푸쉬 오류중
+        System.out.println(num1 + "/" + num2 + "=" +res);
+        System.out.println(num1 + "/" + num2 + "=" +res2);
     }
 }
