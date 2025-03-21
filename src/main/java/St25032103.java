@@ -12,6 +12,9 @@ public class St25032103 {
 
         num = s.nextInt();
         System.out.println("사용자가 입력한 값 ==> " +num);
+        // 여기 System도 대문자라서 클래스고
+        // 램에 올려야하는대 자바에서 올리는방법이 두가지임
+        // static 방법과 new 방법 등 곧 배울예정
 
         s.close();
     }
