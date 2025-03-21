@@ -22,6 +22,5 @@ public class St25032105 {
         System.out.println(res1);
 
         s.close();
-        //잔디심기 잘되는지 확인
     }
 }
