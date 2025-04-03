@@ -1,6 +1,8 @@
+package Exam;
+
 import java.util.Scanner;
 
-public class Exam01 {
+public class Exam0302 {
     public static void main(String[] args) {
         // Scanner 객체 생성 (입력 받기 위함)
         Scanner s = new Scanner(System.in);
