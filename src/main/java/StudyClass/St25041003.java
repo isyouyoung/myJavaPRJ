@@ -11,6 +11,8 @@ public class St25041003 {
         while (true) {
             System.out.print("숫자1 ==> ");
             num1 = s.nextInt();
+            if (num1 ==0)
+                break;
             System.out.print("숫자2 ==> ");
             num2 = s.nextInt();
 
