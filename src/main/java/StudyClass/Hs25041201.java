@@ -17,9 +17,6 @@ public class Hs25041201 {
             }
         }
 
-        System.out.println("100~200사이 5배수의 합은 " + ohap);
-        System.out.println("100~200사이 7배수의 합은 " + chilhap);
-        System.out.println("100~200사이 5배수와 7배수의 총합은 " + (ohap+chilhap));
-
+        System.out.println(ohap +chilhap);
     }
 }
