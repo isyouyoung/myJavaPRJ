@@ -2,7 +2,7 @@ package Quiz;
 
 import java.util.Scanner;
 
-public class Star03 {
+public class Starselect {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
