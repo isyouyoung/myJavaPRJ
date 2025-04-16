@@ -11,6 +11,10 @@ class Rabbit {
 
         System.out.println("Rebbit setPosition(" + x + ", " + y +")");
     }
+
+    void rabbitNoise(){
+        System.out.println("Rabbit Screams");
+    }
 }
 
 public class St25041005 {
@@ -26,5 +30,7 @@ public class St25041005 {
         rabbit1.setPosition(100, 100);
         rabbit2.setPosition(-100, 100);
         rabbit3.setPosition(0, -100);
+
+        rabbit2.rabbitNoise();
     }
 }
