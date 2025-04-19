@@ -18,5 +18,6 @@ public class Hs25041201 {
         }
 
         System.out.println(ohap +chilhap);
+
     }
 }
