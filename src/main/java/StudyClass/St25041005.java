@@ -1,6 +1,6 @@
 package StudyClass;
 
-class Rabbit {
+class Rabbitit05 {
     String shape;
     int xPos;
     int yPos;
@@ -19,9 +19,9 @@ class Rabbit {
 
 public class St25041005 {
     public static void main(String[] args) {
-        Rabbit rabbit1 = new Rabbit();
-        Rabbit rabbit2 = new Rabbit();
-        Rabbit rabbit3 = new Rabbit();
+        Rabbitit05 rabbit1 = new Rabbitit05();
+        Rabbitit05 rabbit2 = new Rabbitit05();
+        Rabbitit05 rabbit3 = new Rabbitit05();
 
         rabbit1.shape = "원";
         rabbit2.shape = "삼각형";
